@@ -54,8 +54,6 @@ This CLI fetches stock data and has **intentional bugs and gaps** for learning:
 4. **Test Generation** — Add pytest tests
 5. **Prompt Optimization** — Write better AI prompts
 
-See `docs/BOOTCAMP_FACILITATOR_GUIDE.md` for the full facilitator script.
-
 ---
 
 ## Troubleshooting
