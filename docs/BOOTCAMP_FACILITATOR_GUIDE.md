@@ -16,10 +16,10 @@ This guide walks you through a **~55-60 minute bootcamp** demonstrating five AI-
 > 
 > 1. **Have Python 3.9+ installed** — check with `python --version`
 > 2. **Have an AI coding assistant** — Windsurf, Cursor, Copilot, or similar
-> 3. **Download the project** — [link to repo/zip]
+> 3. **Download the project** — `git clone https://github.com/ujjwalcraft/ai-coding-bootcamp.git`
 > 4. **Run setup:**
 >    ```bash
->    cd stock_analysis
+>    cd ai-coding-bootcamp
 >    python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
 >    ```
 > 5. **Verify:** `python src/stock_cli.py price AAPL` should show Apple's stock price
