@@ -1,1 +1,10 @@
 
+Before writing code, propose 2–3 design approaches for implementing analyze_stock.
+Compare tradeoffs in latency, cost, and reliability.
+
+
+Implement approach #2. Constraints:
+- Must not block CLI for more than 2 seconds
+- Should degrade gracefully if OpenAI fails
+- Avoid duplicate API calls
+- Return structured output
