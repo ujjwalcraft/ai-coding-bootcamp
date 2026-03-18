@@ -8,3 +8,25 @@ Implement approach #2. Constraints:
 - Should degrade gracefully if OpenAI fails
 - Avoid duplicate API calls
 - Return structured output
+
+
+The history command sometimes returns incorrect date ranges for certain day values.
+
+Here are the relevant functions:
+
+def get_date_range(days: int):
+    """Get start and end dates for historical data."""
+    end_date = datetime.now()
+    start_date = end_date - timedelta(days=days - 1)
+    return start_date, end_date
+
+def fetch_history(ticker, days):
+    """Fetch historical price data."""
+    import yfinance as yf
+    
+    start, end = get_date_range(days)
+    stock = yf.Ticker(ticker)
+    hist = stock.history(period=f"{days}d")
+    return hist
+
+What are possible causes of incorrect date ranges? List hypotheses, don't fix yet.
