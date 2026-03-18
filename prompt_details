@@ -43,6 +43,8 @@ async APIs, and external integrations.
 
 Which of these tests are low-value or brittle?
 
+What production bug would these tests NOT catch?
+
 
 
 Generate pytest tests for get_date_range and fetch_history functions.
