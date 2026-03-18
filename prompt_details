@@ -40,3 +40,9 @@ Fix fetch_history to:
 
 This CLI is growing. Propose a scalable architecture if we add 10+ commands,
 async APIs, and external integrations.
+
+
+
+
+Generate pytest tests for get_date_range and fetch_history functions.
+Include edge cases like zero days, negative days, and boundary conditions.
