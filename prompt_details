@@ -41,6 +41,7 @@ Fix fetch_history to:
 This CLI is growing. Propose a scalable architecture if we add 10+ commands,
 async APIs, and external integrations.
 
+Which of these tests are low-value or brittle?
 
 
 
