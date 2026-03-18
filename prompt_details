@@ -35,3 +35,8 @@ What are possible causes of incorrect date ranges? List hypotheses, don't fix ye
 Fix fetch_history to:
 1. Remove the off-by-one error in get_date_range
 2. Actually use the computed start/end dates instead of the period parameter
+
+
+
+This CLI is growing. Propose a scalable architecture if we add 10+ commands,
+async APIs, and external integrations.
