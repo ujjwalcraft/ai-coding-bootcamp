@@ -30,3 +30,8 @@ def fetch_history(ticker, days):
     return hist
 
 What are possible causes of incorrect date ranges? List hypotheses, don't fix yet.
+
+
+Fix fetch_history to:
+1. Remove the off-by-one error in get_date_range
+2. Actually use the computed start/end dates instead of the period parameter
